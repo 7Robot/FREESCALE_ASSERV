@@ -1,0 +1,18 @@
+# GENERIC files
+*~
+*.swp
+.~lock*
+
+#documentation
+*.pdf
+
+#compilés
+*.o
+*.class
+/bin
+
+*.pptx
+
+*.exe
+*.log
+*.tdt
