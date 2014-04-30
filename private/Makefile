@@ -1,4 +1,4 @@
-CC=gcc
+CC=colorgcc
 CFLAGS=-W -Wall -pedantic
 LDFLAGS=
 SRC=$(wildcard *.c)
