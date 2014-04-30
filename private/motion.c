@@ -1,8 +1,10 @@
+#include "extern_globals.h"
 #include "motion.h"
 
 /*################################   VARIABLES   #################################*/
 
 volatile MotionState motionState;
+volatile MotionConstraint motionConstraint;
 
 
 /*################################   FUNCTIONS   #################################*/

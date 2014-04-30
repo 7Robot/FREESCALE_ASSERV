@@ -13,6 +13,14 @@ typedef struct{
    float d_dir;   // dérivée de dir
 } MotionState;
 
+// contraintes de déplacement de la voiture (vitesses, accélérations)
+typedef struct{
+   float max_speed;  // vitesse maximale
+   float max_acc;    // accélération maximale
+   float max_dir;    // direction max
+   float max_d_dir;  // changement de direction max
+} MotionConstraint;
+
 /*################################   FUNCTIONS   #################################*/
 
 // se mettre en roue libre

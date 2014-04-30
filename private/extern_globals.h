@@ -5,5 +5,6 @@
 
 // motion
 extern volatile MotionState motionState;
+extern volatile MotionConstraint motionConstraint;
 
 #endif
