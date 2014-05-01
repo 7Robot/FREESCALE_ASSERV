@@ -33,6 +33,7 @@ void motion_speed_dir(float speed, float direction);
 void motion_speed_pos(float speed, float pos);
 
 // renvoie la commande de vitesse et de direction : à appeler dans l'interruption
+// forecast_pos correspond à la position estimée dans un certain temps en gardant les consignes actuelles
 void motion_step(int tics, float pos, float forecast_pos, float *cmd_speed, float *cmd_dir);
 
 #endif

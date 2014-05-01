@@ -7,4 +7,7 @@
 extern volatile MotionState motionState;
 extern volatile MotionConstraint motionConstraint;
 
+// odo
+extern volatile Odo odo;
+
 #endif
