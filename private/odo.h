@@ -13,5 +13,7 @@ typedef struct{
 
 /*################################   FUNCTIONS   #################################*/
 
+// maj de l'état de la voiture
+void odo_step(int tics, float pos);
 
 #endif
